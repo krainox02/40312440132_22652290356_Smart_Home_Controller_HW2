@@ -27,9 +27,10 @@ Widget coverage includes all four device cards and their initial numeric propert
 ## Rendered application
 
 - The release web build was served over local HTTP and opened in a Chromium-based browser. The dashboard loaded correctly, including the static footer count of 4.
+- `screenshots/01-dashboard.png` to `09-about.png`: actual Flutter widget-renderer captures at 430 x 932 logical pixels, exported at 2x, taken after real taps on the app's controls (light off, thermostat and speaker controls, options menu, offline device, scheduled toggle, room filter, team info).
 - `screenshots/dashboard.png`: actual Flutter rendering at 1100 x 1250 with all four cards visible.
 - `screenshots/phone.png`: actual Flutter rendering at 390 x 844 with vertical scrolling and a persistent footer.
-- Both screenshots use real Roboto and Material Icons fonts and were visually inspected.
+- All screenshots use real Roboto and Material Icons fonts and were visually inspected.
 
 ## Platform scope
 
